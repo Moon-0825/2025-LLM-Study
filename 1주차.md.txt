@@ -1,0 +1,35 @@
+# 내가 학습하고자 하는 LLM: GPT-4
+
+## 1. 모델 소개
+GPT-4는 OpenAI에서 개발한 대규모 언어 모델(Large Language Model, LLM)로,  
+텍스트 생성, 요약, 번역, 질문 응답 등 다양한 자연어 처리 과제를 수행할 수 있습니다.
+
+### 선택 이유
+- 다양한 태스크에 유연하게 적용 가능
+- 논리적이고 자연스러운 문장 생성 능력
+- ChatGPT에도 사용되고 있어 친숙함
+- 많은 사람들이 사용하고 있음. 가장 보편화된 LLM
+
+---
+
+## 2. 학습 목표
+- 문서 요약 (Summarization)
+- 단어 중복 사용하지 않기 (Minimize word repetition)
+- 문서 내용 일치 (Ensure document consistency)
+
+---
+
+## 3. 필요한 데이터셋
+
+| 데이터셋 이름 | 용도 | 설명 |
+|---------------|------|------|
+| CNN/DailyMail | 문서 요약 | 뉴스 기사 요약을 위한 대규모 데이터 |
+| WikiText      | 표현 다양성 | 중복 없이 다양한 어휘 훈련용 데이터 |
+| SQuAD         | 내용 정확성 | 문서 기반 질문 응답을 통한 일치도 확인 |
+
+---
+
+## 4. 참고 자료
+- [OpenAI GPT-4 소개](https://openai.com/research/gpt-4)
+- [Hugging Face Datasets](https://huggingface.co/datasets)
+- [SQuAD Dataset](https://rajpurkar.github.io/SQuAD-explorer/)
